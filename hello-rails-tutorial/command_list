@@ -1,4 +1,5 @@
-apt-get install libsqlite3-dev
+sudo apt-get install libsqlite3-dev
+sudo apt-get install sqlite3
 
 ruby -v => ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux]
 rails -v => Rails 5.2.1
@@ -30,3 +31,9 @@ http://127.0.0.1:3000/users/ <- O
 
 rails g model user name:string age:integer
 rails db:migrate
+
+
+rails dbconsole
+.tables
+.schema users
+.quit
