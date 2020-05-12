@@ -13,3 +13,11 @@ rails s -b 0.0.0.0 -p 3000
 
 
 rails g controller questions index show new edit
+
+
+rails g model question name:string title:string content:text
+rails db:migrate
+rails dbconsole
+.schmea
+.q
+
