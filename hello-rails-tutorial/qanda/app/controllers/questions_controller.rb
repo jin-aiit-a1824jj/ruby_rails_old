@@ -4,9 +4,9 @@ class QuestionsController < ApplicationController
   end
 
   def show
-    # byebug
     @question = Question.find(params[:id])
     @answer = Answer.new
+    # byebug
   end
 
   def new
