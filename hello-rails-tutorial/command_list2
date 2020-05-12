@@ -30,3 +30,19 @@ http://127.0.0.1:3000/
 rails db:seed
 rails s -b 0.0.0.0 -p 3000
 
+
+https://getbootstrap.com/
+https://github.com/twbs/bootstrap-rubygem
+「
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails', '~> 4.3.1'
+」
+bundle install
+mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+**/qanda/app/assets/javascript/application.js
+「
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+」
+rails s -b 0.0.0.0 -p 3000
