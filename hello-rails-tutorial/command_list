@@ -26,3 +26,7 @@ rails routes
 http://127.0.0.1:3000/users/index <- X
 http://127.0.0.1:3000/users/ <- O
 
+
+
+rails g model user name:string age:integer
+rails db:migrate
