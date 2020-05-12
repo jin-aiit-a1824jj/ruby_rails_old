@@ -1,0 +1,4 @@
+irb
+
+touch hello.rb
+ruby hello.rb 
