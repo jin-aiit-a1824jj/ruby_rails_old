@@ -1,0 +1,40 @@
+sudo apt update
+sudo apt install ruby-full
+ruby --version
+
+https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
+
+sudo apt update
+sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+
+＃＃＃Add $HOME/.rbenv/bin to the user PATH.
+
+If you are using Bash, run:
+「
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+source ~/.bashrc
+」
+
+If you are using Zsh run:
+「
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+source ~/.zshrc
+」
+rbenv install 2.5.1
+rbenv global 2.5.1
+rbenv install -l
+
+
+「
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install build-essential -y
+sudo apt install -y libssl-dev libreadline-dev zlib1g-dev
+」
+
+gem install rails -v 5.2.1 -N
+
+https://qiita.com/Gushi_maru/items/f3b5cc43e135e678085f
+rails -v
