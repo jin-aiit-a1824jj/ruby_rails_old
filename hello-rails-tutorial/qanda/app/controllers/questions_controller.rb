@@ -4,6 +4,8 @@ class QuestionsController < ApplicationController
   end
 
   def show
+    # byebug
+    @question = Question.find(params[:id])
   end
 
   def new
