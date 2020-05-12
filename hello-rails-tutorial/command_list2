@@ -46,3 +46,6 @@ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scs
 //= require bootstrap-sprockets
 」
 rails s -b 0.0.0.0 -p 3000
+
+
+rails routes
