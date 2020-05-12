@@ -7,3 +7,12 @@ puts 'Hello ruby'
 puts 'Hello ruby'
 puts 'Hello ruby'
 =end
+
+n = 0 
+if !n.zero?
+  puts 'Not zero.'
+end
+
+unless n.zero?
+  puts 'Not zero.'
+end

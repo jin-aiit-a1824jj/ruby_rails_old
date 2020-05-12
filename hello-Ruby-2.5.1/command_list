@@ -2,3 +2,13 @@ irb
 
 touch hello.rb
 ruby hello.rb 
+
+var.class
+var.methods
+
+puts
+print
+p
+pp
+
+var.superclass
