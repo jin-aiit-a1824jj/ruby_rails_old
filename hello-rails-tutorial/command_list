@@ -37,3 +37,23 @@ rails dbconsole
 .tables
 .schema users
 .quit
+
+
+rails console
+User.all
+user = User.new
+user.name = 'resu eman'
+user.age = 46
+user.save
+
+y = User.find(2)
+y.name = 'Hanako Yamada'
+y.age = 30
+y.save
+
+y = User.find(2)
+y.destroy
+
+User.find(1).destroy
+exit
+
