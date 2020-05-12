@@ -1,0 +1,10 @@
+rails _5.2.1_ new qanda
+
+cd qanda
+**/qanda/Gemfile
+ă
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', '~> 1.3.6'
+ă
+bundle update
+rails db:create
