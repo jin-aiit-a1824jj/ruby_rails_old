@@ -53,3 +53,6 @@ rails routes
 
 
 rails g controller answers edit
+
+rails g model answer question:references name:string content:text
+rails db:migrate
