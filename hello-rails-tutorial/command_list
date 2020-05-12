@@ -57,3 +57,10 @@ y.destroy
 User.find(1).destroy
 exit
 
+
+u = User.new(name: 'Nakamura', age: 20)
+u.save
+b = User.new(name: 'yamada', age: 21)
+b.save
+s = User.new(name: 'Sato', age: 31)
+s.save
